@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "donation-app"
+    }
+  },
+  "defaultProject": "donation-app",
+  "cli": {
+    "analytics": false
+  }
 }

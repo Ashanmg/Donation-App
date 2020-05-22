@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DonationEventComponentComponent } from './donation-event-component/donation-event-component.component';
+import { DonationPaymentComponent } from './donation-payment/donation-payment.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DonationEventComponentComponent
+    DonationEventComponentComponent,
+    DonationPaymentComponent
   ],
   imports: [
     BrowserModule,
